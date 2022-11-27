@@ -9,6 +9,7 @@
 .main-nav-wrapper {
     display: flex;
     width: 100%;
+    max-width: 100%;
 }
 nav h2 {
     font-size: 25px;
@@ -33,7 +34,7 @@ nav h2 {
     display: flex;
     justify-content: start;
     margin-top: 50px;
-    padding: 50px;
+    padding: 10px;
 }
 
 .video-wrapper {
@@ -62,9 +63,15 @@ nav h2 {
     align-items: center;
     width: 100%;
 }
+.video-list {
+    margin-left: 5%;
+}
 .inner-title-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+.main-vid {
     width: 100%;
 }
 .likes {
@@ -113,21 +120,43 @@ iframe {
     flex-direction: column;
     }
     .video-wrapper {
-        padding-left: 0px;
-        width: 100%;
-        max-width: 80%;
-    }
-    .search {
-        margin-left: 20px;
-    }
-    .video-description .info {
+        padding-left: 0px !important;
         width: 100%;
         max-width: 100%;
     }
+    .video-title-wrapper {
+    flex-direction: column;
+    width: 100%;
+    }
+    .inner-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 10pox;
+    }
+    .main-vid {
+        width: 100%;
+        height: 200px;    
+    }
+    .video-list {
+        margin-left: 0%;
+        margin: auto;
+    }
+    .search {
+        margin-left: 20px;
+        width: 100%;
+    }
+    .video-description {
+        width: 100%;
+    }
     .video-list-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
+        justify-content: center;
+    }
+    .social {
+        justify-content: start;
     }
     
   }
