@@ -10,6 +10,10 @@
     display: flex;
     width: 100%;
 }
+nav h2 {
+    font-size: 25px;
+    width: 100%;
+}
 .search {
     width: 100%;
     max-width: 800px;
@@ -42,6 +46,8 @@
 .video-title {
     font-weight: bold;
     font-size: 20px;
+    margin: 0px;
+    padding-top: 5px;
 }
 .video-description {
     background-color: #ededed;
@@ -56,14 +62,18 @@
     align-items: center;
     width: 100%;
 }
+.inner-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .likes {
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
     background-color: #ededed;
     display: flex;
     align-items: center;
-    margin-left: 30%;
-    margin-right: 5%;
+    font-size: 15px !important;
 }
 .likes a {
     text-decoration: none;
@@ -74,15 +84,22 @@
     font-weight: bold;
 }
 .share {
-    padding: 5px 15px 5px 15px;
+    padding: 0px 5px 0px 10px;
     border-radius: 10px;
     background-color: #ededed;
     display: flex;
     align-items: center;
+    margin-left: 2%;
 }
 .share a {
     text-decoration: none;
     color: #000000;
+}
+.social {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 5%;
 }
 iframe {
     border-radius: 10px;
