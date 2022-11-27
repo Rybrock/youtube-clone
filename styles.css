@@ -106,5 +106,10 @@ iframe {
         width: 100%;
         max-width: 100%;
     }
+    .video-list-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
     
   }
